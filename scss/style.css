@@ -17,8 +17,8 @@ body {
 }
 
 a {
-  -webkit-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
 }
 
 a:hover {
@@ -30,8 +30,8 @@ a:hover {
 }
 
 .site-wrap:before {
-  -webkit-transition: .3s all ease-in-out;
-  transition: .3s all ease-in-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
   background: rgba(0, 0, 0, 0.6);
   content: "";
   position: absolute;
@@ -63,7 +63,7 @@ a:hover {
   -webkit-transition: 0.2s all ease-in-out !important;
   transition: 0.2s all ease-in-out !important;
   top: 0;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 .btn:hover, .btn:active, .btn:focus {
@@ -86,7 +86,7 @@ a:hover {
 .btn.btn-primary {
   font-size: 17px;
   font-weight: 300;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
 }
 
 .btn:hover {
@@ -152,6 +152,14 @@ a:hover {
 
 .border-top {
   border-top: 1px solid #edf0f5 !important;
+}
+
+.tm-map {
+  max-width: 900px;
+  height: 450px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .site-footer {
